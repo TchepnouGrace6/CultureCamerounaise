@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    min-width: 100vh;
+    padding: 1.5rem 1rem;
+    font-family: 'Karla', sans-serif;
+    background-color: blanchedalmond;
+}
+
+.container {
+    width: 100%;
+    padding: 3rem;
+    border-radius: 16px;
+    background-color: white;
+}
+
+label {
+    display: flex;
+}
+
+input {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+    margin: 4px 0 8px 0;
+}
+
+.title {
+    padding: 2rem;
+    font-weight: 700;
+}
+
+.button_container {
+    padding: 2rem 0 0 0;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+p {
+    padding: 2rem;
+}
