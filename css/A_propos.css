@@ -96,9 +96,7 @@
             transition: 0.3s;
         }
                 .hero {
-            background: 
-                linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                url('../assets/fond.jpg') center/cover no-repeat;
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../assets/fond.jpg') center/cover no-repeat;
             background-attachment: fixed;
             color: var(--blanc);
             padding: 150px 5% 100px;
@@ -253,7 +251,21 @@
             }
         }
 
-        
+        @media (max-width: 768px) {
+            .about-section {
+                padding: 40px 15px;
+            }
+
+            .about-section .section-title {
+                font-size: 1.8em;
+            }
+
+            .about-values li {
+                font-size: 0.95em;
+            }
+        }
+
+
 
 /** CSS PAGE A PROPOS **/
 
@@ -312,17 +324,3 @@
     font-size: 1em;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .about-section {
-        padding: 40px 15px;
-    }
-
-    .about-section .section-title {
-        font-size: 1.8em;
-    }
-
-    .about-values li {
-        font-size: 0.95em;
-    }
-}
